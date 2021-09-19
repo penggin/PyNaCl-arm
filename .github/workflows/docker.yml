@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3.4.1
         with:
-          images: ghcr.io/penggin/peng_bot
+          images: ghcr.io/penggin/PyNaCl-arm
             
       -
         name: Set up Docker Buildx
