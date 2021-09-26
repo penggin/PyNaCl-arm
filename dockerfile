@@ -12,7 +12,6 @@ RUN pip3 install python-dotenv
 RUN pip3 install uvloop
 RUN pip3 install discord-py-slash-command==1.2.2
 RUN pip3 install aiosqlite
-RUN pip3 install -r requirements.txt --no-cache-dir
 RUN pip3 install -U wavelink --pre
 RUN pip3 uninstall discord.py -y
 RUN pip3 uninstall aiohttp -y
