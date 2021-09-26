@@ -10,7 +10,7 @@ RUN pip3 install koreanbots
 RUN pip3 install jishaku
 RUN pip3 install python-dotenv
 RUN pip3 install uvloop
-RUN pip3 install discord-py-slash-commands==1.2.2
+RUN pip3 install discord-py-slash-command==1.2.2
 RUN pip3 install aiosqlite
 RUN pip3 install -r requirements.txt --no-cache-dir
 RUN pip3 install -U wavelink --pre
