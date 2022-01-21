@@ -1,3 +1,4 @@
 psutil
 aiohttp[speedups]==3.6.3
 PyNaCl
+poetry
